@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+.tudo{
+    min-width: 500px;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.caixatudo{
+    margin: 4rem;
+    padding: 8%;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 90%;
+}
+.logomarca img{
+    margin-top: 1rem;
+    width: 5.4rem;
+}
+.titulo-caixa{
+    margin-top: 1.2rem;
+    font-size: 24px;
+}
+.texto2{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.caixa-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 3.4rem;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+}
+.caixa-texto input{
+    width: 90%;
+    border: 0px;
+    height: 90%;
+    font-size: 16px;
+}
+
+.caixaesqueceusenha{
+    width: 100%;
+}
+.rememberemail{
+    margin-top: 0.5rem;
+    color: #1a73e8;
+    font-weight: bold;
+    cursor: pointer;
+}
+.texto3{
+    margin-top: 3.3rem;
+    color: #5f6368;
+}
+.link-blue{
+    color: #1a73e8;
+    font-weight: bold;
+    cursor: pointer;
+}
+.finalbotoes{
+    margin-top: 3.5rem;
+    width: 100%;
+    display: flex;
+}
+.pt1finalbtn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.pt2finalbtn{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.criaraconta{
+    font-size: 15px;
+    color: #1a73e8;
+    cursor: pointer;
+}
+.prosseguir{
+    border-radius: 5%;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 36px;
+    color: white;
+    background-color: #1a73e8;
+}
+
+@media(max-width:600px){
+    body{
+        justify-content: start;
+    }
+    .tudo{
+        width: 100%;
+        min-width: 300px;
+    }
+    .caixatudo{
+        padding: 4%;
+        margin: 0px;
+        width: 100%;
+        border: 0px;
+    }
+}
